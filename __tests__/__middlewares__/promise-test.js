@@ -1,4 +1,4 @@
-import promiseMiddleware from '../../src/middleware/promise';
+import promiseMiddleware from '../../app/middleware/promise';
 
 const mockStore = {
     getState: () => jest.fn(),

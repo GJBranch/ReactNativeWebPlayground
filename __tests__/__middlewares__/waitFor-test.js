@@ -1,4 +1,4 @@
-import waitForMiddleware from '../../src/middleware/waitFor';
+import waitForMiddleware from '../../app/middleware/waitFor';
 
 const mockStore = {
     getState: jest.fn(() => false),

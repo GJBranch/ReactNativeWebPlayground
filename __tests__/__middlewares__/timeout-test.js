@@ -1,4 +1,4 @@
-import timeoutMiddleware from '../../src/middleware/timeout';
+import timeoutMiddleware from '../../app/middleware/timeout';
 
 jest.useFakeTimers();
 

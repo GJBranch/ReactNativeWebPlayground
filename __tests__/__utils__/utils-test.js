@@ -1,4 +1,4 @@
-import utils from '../../src/utils/utils';
+import utils from '../../app/utils/utils';
 
 describe('Utils Tests', () => {
     test('Deep merging objects - 1', () => {

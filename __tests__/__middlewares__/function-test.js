@@ -1,4 +1,4 @@
-import functionMiddleware from '../../src/middleware/function';
+import functionMiddleware from '../../app/middleware/function';
 
 jest.useFakeTimers();
 
