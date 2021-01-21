@@ -25,6 +25,7 @@ module.exports = {
         new webpack.HotModuleReplacementPlugin(),
     ],
     resolve: {
+        symlinks: false,
         extensions: [
             '.web.tsx',
             '.web.ts',
@@ -34,9 +35,6 @@ module.exports = {
             '.web.js',
             '.jsx',
             '.js',
-        ],
-        alias: Object.assign({
-            'react-native$': 'react-native-web',
-        }),
-    },
+        ]
+    }
 };

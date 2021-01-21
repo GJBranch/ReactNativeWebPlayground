@@ -10,5 +10,15 @@ module.exports = {
             },
         ],
     ],
-    plugins: ['@babel/plugin-proposal-object-rest-spread']
+    plugins: [
+        ['@babel/plugin-proposal-object-rest-spread'],
+        ['module-resolver',
+            {
+                alias: {
+                    'react-native-gesture-handler': '../',
+                    'react-native$': require.resolve('react-native-web'),
+                },
+            },
+        ]
+    ]
 };
